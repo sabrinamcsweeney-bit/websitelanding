@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Tone Company | Coming Soon</title>
+    <meta name="description" content="The Tone Company. Coming soon." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Didot&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #161513;
+        --bone: #f7f4ee;
+        --stone: #e7e2d7;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Manrope", "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: linear-gradient(180deg, var(--bone), var(--stone));
+        min-height: 100vh;
+      }
+      .page {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 48px 24px 64px;
+        min-height: 100vh;
+        display: grid;
+        align-content: center;
+        gap: 22px;
+        text-align: center;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: inherit;
+      }
+      .logo-text {
+        font-family: "Didot", "Cormorant Garamond", serif;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        font-size: 20px;
+      }
+      .coming {
+        font-size: 12px;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        color: rgba(22, 21, 19, 0.6);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <a class="logo" href="#">
+          <span class="logo-text">The Tone Company</span>
+        </a>
+      </header>
+      <section class="coming">Coming Soon</section>
+    </main>
+  </body>
+</html>
